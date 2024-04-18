@@ -68,7 +68,6 @@ def guess_number():
 def save_result(num_guesses):
   # Xử lý tên người chơi để loại bỏ các ký tự không hỗ trợ
     player_name = input("Nhập tên người chơi: ")
-    1
     player_name_cleaned = ''.join(filter(lambda x: x.isprintable(), player_name))
 
     # Ghi thông tin người chơi vào tệp
